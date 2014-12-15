@@ -5,6 +5,7 @@
 # before. 
 
 # makeCacheMatrix
+#
 # This function creates a list with 4 methods
 # 1: Method to set which matrix we are going to calculate
 # 2: Method to get the value of the matrix
@@ -39,6 +40,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 # cacheSolve
+#
 # This function return a matrix that is the inverse of 'x'
 # Depending if the matrix has been already inverted
 # returns the cached value of its inverse or it calculates
